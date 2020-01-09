@@ -1,7 +1,6 @@
 import React from "react";
 
 import MenuItem from "../menu-item/menu-item.component";
-import Magazine from '../../pages/magazine/magazine.component';
 import "./directory.styles.scss";
 
 class Directory extends React.Component {
@@ -53,7 +52,6 @@ class Directory extends React.Component {
         ) => (
           <MenuItem key={id} {...otherSectionProps} />
         ))}
-        <Magazine />
       </div>
     );
   }
