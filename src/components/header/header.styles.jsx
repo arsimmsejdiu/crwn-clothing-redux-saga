@@ -37,5 +37,6 @@ export const OptionLink = styled(Link)`
 
   &:hover{
     border-bottom: 6px solid rgb(112, 55, 55) ;
+    overflow:hidden;
   }
 `;

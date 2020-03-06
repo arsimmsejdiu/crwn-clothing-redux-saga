@@ -5,7 +5,7 @@ import { createStructuredSelector } from "reselect";
 //import NProgress from 'nprogress';
 
 import "./App.css";
-import Footer from './components/footer/footer.component';
+//import Footer from './components/footer/footer.component';
 import HomePage from "./pages/homepage/homepage.component";
 import ContactUs from './components/contact/contact.component';
 import ShopPage from "./pages/shop/shop.component";
@@ -63,7 +63,7 @@ class App extends React.Component {
             }
           />
         </Switch>
-        <Footer />
+        
       </div>
     );
   }
@@ -78,3 +78,5 @@ const mapDispatchToProps = dispatch => ({
 });
 
 export default connect(mapStateToPops, mapDispatchToProps)(App);
+
+//<Footer />
