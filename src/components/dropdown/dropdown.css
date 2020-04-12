@@ -1,0 +1,19 @@
+:root{
+    --main: #e91f63;
+
+}
+
+.dropdown{
+    margin-top: 130px;
+    font-size: 15px;
+}
+
+.dropdown-toggle{
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.dropdown-menu{
+    border: 2px solid var(--main);
+    border-bottom-width: 5px;
+}

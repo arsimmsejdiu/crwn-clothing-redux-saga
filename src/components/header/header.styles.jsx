@@ -14,9 +14,9 @@ export const LogoContainer = styled(Link)`
   height: 100%;
   width: 70px;
   padding: 25px;
-  transition: all .2s;
+  transition: all 0.2s;
 
-  &:hover{
+  &:hover {
     transform: scale(1.5);
   }
 `;
@@ -33,10 +33,10 @@ export const OptionsContainer = styled.div`
 export const OptionLink = styled(Link)`
   padding: 15px 15px;
   cursor: pointer;
-  transition: all .3s;
+  transition: all 0.3s;
 
-  &:hover{
-    border-bottom: 6px solid rgb(112, 55, 55) ;
-    overflow:hidden;
+  &:hover {
+    border-bottom: 6px solid rgb(112, 55, 55);
+    overflow: hidden;
   }
 `;
